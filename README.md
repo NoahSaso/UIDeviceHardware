@@ -13,9 +13,8 @@ Usage
 ```objc
 #import "UIDeviceHardware.h"
 
-UIDeviceHardware *h = [[UIDeviceHardware alloc] init];
-NSString *platform = [h platform];
-NSString *platformString = [h platformString];
+NSString *platform = [UIDeviceHardware platform];
+NSString *platformString = [UIDeviceHardware platformString];
 
 //Device is iPad
 if([platform rangeOfString:@"iPad"].location != NSNoutFound) {

@@ -7,7 +7,7 @@
 
 @interface UIDeviceHardware : NSObject
 
-- (NSString *) platform;
-- (NSString *) platformString;
++ (NSString *) platform;
++ (NSString *) platformString;
 
 @end
