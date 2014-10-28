@@ -35,6 +35,8 @@
     if ([platform isEqualToString:@"iPhone5,4"])    return @"iPhone 5c (GSM+CDMA)";
     if ([platform isEqualToString:@"iPhone6,1"])    return @"iPhone 5S (GSM)";
     if ([platform isEqualToString:@"iPhone6,2"])    return @"iPhone 5S (GSM+CDMA)";
+    if ([platform isEqualToString:@"iPhone7,1"])    return @"iPhone 6 Plus";
+    if ([platform isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
 
     //iPods
     if ([platform isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
@@ -60,6 +62,15 @@
     if ([platform isEqualToString:@"iPad3,6"])      return @"iPad 4 (GSM+CDMA)";
     if ([platform isEqualToString:@"iPad4,1"])      return @"iPad Air (WiFi)";
     if ([platform isEqualToString:@"iPad4,2"])      return @"iPad Air (Cellular)";
+    if ([platform isEqualToString:@"iPad4,3"])      return @"iPad Air (China)";
+    if ([platform isEqualToString:@"iPad4,4"])      return @"iPad Mini 2 (WiFi)";
+    if ([platform isEqualToString:@"iPad4,5"])      return @"iPad Mini 2 (Cellular)";
+    if ([platform isEqualToString:@"iPad4,6"])      return @"iPad Mini 2 (China)";
+    if ([platform isEqualToString:@"iPad4,7"])      return @"iPad Mini 3 (WiFi)";
+    if ([platform isEqualToString:@"iPad4,8"])      return @"iPad Mini 3 (Cellular)";
+    if ([platform isEqualToString:@"iPad4,9"])      return @"iPad Mini 3 (China)";
+    if ([platform isEqualToString:@"iPad5,3"])      return @"iPad Air 2 (WiFi)";
+    if ([platform isEqualToString:@"iPad5,4"])      return @"iPad Air 2 (Cellular)";
 
     //Simulators
     if ([platform isEqualToString:@"i386"])         return @"Simulator";

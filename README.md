@@ -16,7 +16,7 @@ Usage
 NSString *platform = [UIDeviceHardware platform];
 NSString *platformString = [UIDeviceHardware platformString];
 
-//Device is iPad
+// Device is iPad
 if([platform rangeOfString:@"iPad"].location != NSNoutFound) {
 	NSLog([NSString stringWithFormat:@"Device is: %@", platformString]);
 }else {
