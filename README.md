@@ -3,9 +3,10 @@ UIDeviceHardware
 
 Get the type of device your program is running on.
 
-Code taken from: https://gist.github.com/Jaybles/1323251 (and some other unknown location, I forgot...)
+Code taken from: https://gist.github.com/Jaybles/1323251 (and some other unknown location which I forgot but I'm sure is great)
 
-Re-made my Sassoty to implement into your projects. I also added on some more devices
+Modified to ease the process of incorporating into projects (git submodule, etc.)
+I also added some more devices
 
 Usage
 =====
